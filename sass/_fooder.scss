@@ -1,0 +1,27 @@
+.main-foot{
+    background-color: $drk;
+    height: auto;
+    padding: 1rem;
+    section{
+        display: flex;
+        .copy{
+            color: $lgt;
+            padding: 1rem;
+            margin-right: auto;
+        }
+        .social{
+            padding: 1rem;
+            display: flex;
+            color: $lgt;
+            margin-left: auto;
+            i{
+                padding-right: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+
+

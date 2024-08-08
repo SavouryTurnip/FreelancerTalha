@@ -1,0 +1,66 @@
+.container{
+    max-width: 1200px;
+    padding: 0 1.4rem;
+    margin: auto;
+}
+.flex{
+    display: grid;
+}
+.h-khv{
+    color: $khv;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.exp{
+    text-align: center;
+    h1{
+        color: $khv;
+        font-weight: 700;
+        font-size: 2em;
+    }
+}
+%btn-shared{
+    display: inline-block;
+    padding: .7rem 2rem;
+    transition: all .5s;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem
+}
+.grid-ic{
+    align-self: center;
+    display: inline-block;
+    h1{
+        font-weight: bold;
+    }
+}
+.btn{
+    &-primary{
+        @extend %btn-shared;
+        background-color: $gri;
+        color: $byz;
+    }
+    &-dark{
+        @extend %btn-shared;
+        background-color: $drk;
+        color: $lgt;
+    }
+    &-light{
+        @extend %btn-shared;
+        background-color: $lgt;
+        color: $drk;
+    }
+    &-dark:hover{
+        @extend %btn-shared;
+        background-color: $lgt;
+        color: $drk;
+    }
+}
+.active{
+    color: $khv;
+}
+.yazi{
+    font-weight: 600;
+    font-size: 1em;
+}

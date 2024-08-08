@@ -1,0 +1,19 @@
+{
+  "name": "sass-kurulum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass -o public/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.75.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

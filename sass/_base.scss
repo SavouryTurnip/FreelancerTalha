@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+body{
+    background-color: $lgt;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: $byz;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}

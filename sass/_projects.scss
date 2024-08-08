@@ -1,0 +1,21 @@
+.flex{
+grid-template-columns: auto auto auto;
+    gap: 2rem;
+
+    .box{
+        background-color: #e6e6e6;
+        text-align: center;
+        box-shadow: $shadow;
+        transition-duration: .5s;
+        p{
+            padding: .5rem;
+        }
+        img{
+            width: 100%;
+        }
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+}

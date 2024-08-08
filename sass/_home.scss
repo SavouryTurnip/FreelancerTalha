@@ -1,0 +1,95 @@
+.container{
+    text-align: center;
+
+
+}
+
+.grid-cont{
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: auto auto auto auto;
+    .grid-item{
+        text-align: center;
+        display: inline-block;
+        .icon{
+            background-color: $drk; 
+            border-radius: 50%; 
+            color: $lgt; 
+            text-align: center;
+            position: relative;
+            padding: 1.5rem;
+            width: 64px;
+            transition-duration:.6s;
+            &:hover{
+                background-color: $khv;
+                .us{
+                    background-color: $drk;
+
+                }
+
+            }
+            .us{
+                display: inline-block;
+                background-color: $khv;
+                font-weight: bold;
+                position: absolute;
+                border-radius: 50%;
+                font-size: 1.5rem;
+                padding: .5rem;
+                top: 0;
+                cursor: default;
+                width: 24px;
+                color: $lgt;
+                transition-duration:.5s;
+
+            }
+
+        }
+
+    }
+
+
+
+
+}
+.grid-cont2{
+    display: grid;
+    gap: 0rem;
+    grid-template-columns: auto auto auto auto;
+    h1{
+        color: #393E46;
+        padding-top: .5vh;
+    }
+    .grid-item1{
+        display: flex;
+        text-align: center;
+        height: 25vh;
+        background-color: #F7CCAC;
+        justify-content: center;
+    }
+    .grid-item2{
+        display: flex;
+        text-align: center;
+        background-color: $gri; 
+        height: 25vh;
+        justify-content: center;
+
+    }
+    .grid-item3{
+        text-align: center;
+        display: flex;
+        height: 25vh;
+        background-color: #F7CCAC;
+        justify-content: center;
+
+    }
+    .grid-item4{
+        display: flex;
+        text-align: center;
+        background-color: $gri; 
+        height: 25vh;
+        justify-content: center;
+
+    }
+
+}

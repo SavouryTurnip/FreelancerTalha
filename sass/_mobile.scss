@@ -1,0 +1,429 @@
+@media(max-width:576px){
+    html{
+        font-size: 80%;
+    }
+    .hd1{
+        height: 100vh;
+            background-position: top;
+        nav{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            ul.mn{
+                display: none;
+                grid-template-columns: auto;
+                text-align: center;
+                margin: 0;
+            }
+            ul.mn.active{
+                display: grid!important;
+            }
+            button.cross{
+                display: block;
+            }
+        }
+        .tntm{
+            font-size: 1em;
+        }
+    }
+    .hd2{
+        height: auto;
+        background-position: top;
+        nav{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            ul{
+                display: grid;
+                grid-template-columns: auto;
+                text-align: center;
+            }
+        }
+    }
+    .container{
+        max-width: 450px;
+        .grid-cont{
+            grid-template-columns: auto;
+            gap: 10rem;
+            margin-top: 2rem;
+            h1{
+                padding: 1rem;
+            }
+            i{
+                font-size: 8em;
+            }
+        }
+    }
+    p{
+        font-size: 1.4em;
+
+    }
+    .yazi{
+        font-size: 1.4em;
+    }
+    .grid-cont{
+        grid-template-columns: auto;
+        gap: 10rem;
+        margin-top: 2rem;
+        h1{
+            padding: 1rem;
+        }
+        .yazi{
+            padding: 1rem;
+        }
+    }
+    .grid-cont2{
+        grid-template-columns: auto;
+        gap: 0;
+        margin-top: 2rem;
+        .grid-item1{
+            height: 20rem;
+        }        
+        .grid-item2{
+            height: 20rem;
+        }
+        .grid-item3{
+            height: 20rem;
+        }
+        .grid-item4{
+            height: 20rem;
+        }
+        i{
+
+            font-size: 6em;
+        }
+        p{
+            font-size: 2em;
+        }
+        h1{
+            font-size: 3em;
+        }
+    }
+    .flex{
+        grid-template-columns: auto;
+    }
+    section{
+        .flx{
+            flex-wrap: wrap;
+            justify-content: center;
+            height: auto;
+            .fl1{
+                float: none;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .fl2{
+                float: none;
+            }
+            img{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .spon{
+        display: grid;
+        height: auto;
+        gap: 0;
+        img{
+            width: auto;
+        }
+    }
+    .rfre{
+        grid-template-columns: auto ;
+        height: auto;
+        margin-bottom: 5rem;
+        gap: 2rem;
+    }
+    .forum{
+        grid-template-columns: auto;
+        .message{
+            grid-column: auto;
+        }
+        .sbmt{
+            grid-column: auto;
+        }
+    }
+    .cnt{
+        height: auto;
+        .grid-cont{
+            gap: 0;
+        }
+    }
+
+
+}
+@media(min-width:576px) and (max-width:992px){
+    html{
+        font-size: 80%;
+    }
+    .hd1{
+        height: 100vh;
+        background-position: top;
+        nav{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            ul{
+                display: none;
+                grid-template-columns: auto;
+                text-align: center;
+            }
+            button.cross{
+                display: block;
+            }
+        }
+
+
+    }
+    .hd2{
+        height: auto;
+        background-position: top;
+        nav{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            ul{
+                display: grid;
+                grid-template-columns: auto;
+                text-align: center;
+            }
+        }
+    }
+    .container{
+        max-width: 600px;
+        .grid-cont{
+            grid-template-columns: auto;
+            gap: 10rem;
+            margin-top: 2rem;
+            h1{
+                padding: 1rem;
+            }
+            i{
+                font-size: 8em;
+            }
+        }
+    }
+    p{
+        font-size: 1.4em;
+
+    }
+    .yazi{
+        font-size: 1.4em;
+    }
+    .grid-cont{
+        grid-template-columns: auto;
+        gap: 10rem;
+        margin-top: 2rem;
+        h1{
+            padding: 1rem;
+        }
+        .yazi{
+            padding: 1rem;
+        }
+    }
+    .grid-cont2{
+        grid-template-columns: auto;
+        gap: 0;
+        margin-top: 2rem;
+        .grid-item1{
+            height: 20rem;
+        }        
+        .grid-item2{
+            height: 20rem;
+        }
+        .grid-item3{
+            height: 20rem;
+        }
+        .grid-item4{
+            height: 20rem;
+        }
+        i{
+
+            font-size: 6em;
+        }
+        p{
+            font-size: 2em;
+        }
+        h1{
+            font-size: 3em;
+        }
+    }
+    .flex{
+        grid-template-columns: auto;
+    }
+    section{
+        .flx{
+            flex-wrap: wrap;
+            justify-content: center;
+            height: auto;
+            .fl1{
+                float: none;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .fl2{
+                float: none;
+            }
+            img{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .spon{
+        display: grid;
+        height: auto;
+        gap: 0;
+        img{
+            width: auto;
+        }
+    }
+    .rfre{
+        grid-template-columns: auto ;
+        height: auto;
+        margin-bottom: 5rem;
+        gap: 2rem;
+    }
+    .forum{
+        grid-template-columns: auto;
+        .message{
+            grid-column: auto;
+        }
+        .sbmt{
+            grid-column: auto;
+        }
+    }
+    .cnt{
+        height: auto;
+        .grid-cont{
+            gap: 0;
+        }
+    }
+
+
+
+}
+@media(min-width:992px) and (max-width:1200px){
+    html{
+        font-size: 80%;
+    }
+    .hd1{
+        height: 100vh;
+        background-position: top;
+        nav{
+            display: flex;
+
+
+        }
+
+    }
+
+    .container{
+        max-width: 1000px;
+        .grid-cont{
+            grid-template-columns: auto auto;
+            gap: 10rem;
+            margin-top: 2rem;
+            h1{
+                padding: 1rem;
+            }
+            i{
+                font-size: 8em;
+            }
+        }
+    }
+    p{
+        font-size: 1.4em;
+
+    }
+    .yazi{
+        font-size: 1.4em;
+    }
+    .grid-cont{
+        grid-template-columns: auto auto;
+        gap: 10rem;
+        margin-top: 2rem;
+        h1{
+            padding: 1rem;
+        }
+        .yazi{
+            padding: 1rem;
+        }
+    }
+    .grid-cont2{
+        grid-template-columns: auto auto;
+        
+        gap: 0;
+        margin-top: 2rem;
+        .grid-item1{
+            height: 20rem;
+        }        
+        .grid-item2{
+            height: 20rem;
+        }
+        .grid-item3{
+            height: 20rem;
+            background-color: $gri;
+        }
+        .grid-item4{
+            height: 20rem;
+            background-color: #f7ccac;
+        }
+        i{
+
+            font-size: 6em;
+        }
+        p{
+            font-size: 2em;
+        }
+        h1{
+            font-size: 3em;
+        }
+    }
+    .flex{
+        grid-template-columns: auto auto;
+    }
+    section{
+        .flx{
+            height: auto;
+            .fl1{
+
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+        }
+    }
+    .spon{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: auto;
+        gap: 0;
+        img{
+            width: auto;
+        }
+    }
+    .rfre{
+        grid-template-columns: auto auto;
+        height: auto;
+        margin-bottom: 5rem;
+        gap: 2rem;
+    }
+
+    .cnt{
+        height: auto;
+        .grid-cont{
+            grid-template-columns: auto auto auto;
+            gap: 5rem;
+        }
+    }
+}
